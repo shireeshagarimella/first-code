@@ -1,0 +1,10 @@
+name=input("please enter your NAME:")
+birthday=input("please enter your BIRTH date:")
+gender=input("please enter your GENDER:")
+password=input("please enter PASSWORD:")
+
+print("Profile")
+print("\n" "NAME".ljust(20," "),":".ljust(20," "),name.upper())
+print("\n" "BIRTHDAY".ljust(20," "),":".ljust(20," "), birthday.title())
+print("\n" "GENDER".ljust(20," "),":".ljust(20, " "), gender.title())
+print("\n" "PASSWORD".ljust(20," "),":".ljust(20," "), password)

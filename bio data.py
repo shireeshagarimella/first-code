@@ -9,7 +9,7 @@ b="Birthdate"
 c="Gender"
 d="PASSWORD"
 
-f = open("C:\\Users\\VAMSI\\Desktop\\trainings\\details.docx", "w+")
+f = open("C:\\Users\\VAMSI\\Desktop\\trainings\\details.txt", "w+")
 
 f.write(f'{e}' '\n')
 f.write(f'{a:<40}{name.upper():<20}''\n')
